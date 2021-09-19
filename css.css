@@ -1,0 +1,16 @@
+.background{
+    background-image: url(new-weather-1.png);
+}
+.max-w-310{
+    max-width: 340px;
+}
+.min-w-310{
+    min-width: 340px;
+}
+.min-w-82{
+    min-width: 82px;
+}
+.brick{
+    height: 3px;
+    width: 80px;
+}
