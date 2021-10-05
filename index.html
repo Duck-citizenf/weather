@@ -7,83 +7,166 @@
     <link href="css.css" rel="stylesheet">
     <title></title>
 </head>
-<body class="background">
-    <div class="text-5xl text-white text-center">Capertino</div>
-    <div class="text-8xl text-white align-middle text-center font-light">70°</div>
-    <div class="text-2xl text-white text-center">Sunny</div>
-    <div class="text-2xl text-white text-center mb-7">H:76° L:51°</div>
-    <div class="text-center mb-3">
-        <div class="inline-block bg-blue-400 rounded-2xl text-white p-2.5 max-w-310">
-            <div class="border-b border-blue-300 text-blue-200 pb-3 mb-1 block text-left">Sunny conditions will continue all day.</div>
-            <div class="flex overflow-y-hidden">
-                <div class="pr-5 flex flex-col text-center">Now <img width="30px" height="30px" src="sun-icon-256.png"> <span class="text-2xl">70°</span></div>
-                <div class="pr-5 flex flex-col text-center">10am <img width="30px" height="30px" src="sun-icon-256.png"> <span class="text-2xl">70°</span></div>
-                <div class="pr-5 flex flex-col text-center">11am <img width="30px" height="30px" src="sun-icon-256.png">  <span class="text-2xl">70°</span></div>
-                <div class="pr-5 flex flex-col text-center">12pm <img width="30px" height="30px" src="sun-icon-256.png">  <span class="text-2xl">70°</span></div>
-                <div class="pr-5 flex flex-col text-center">1pm <img width="30px" height="30px" src="sun-icon-256.png">  <span class="text-2xl">70°</span></div>
-                <div class="pr-5 flex flex-col text-center">2pm <img width="30px" height="30px" src="sun-icon-256.png">  <span class="text-2xl">70°</span></div>
-                <div class="pr-5 flex flex-col text-center">3pm <img width="30px" height="30px" src="sun-icon-256.png">  <span class="text-2xl">70°</span></div>
-            </div>
-        </div>
-    </div>
-    <div class="text-center">
-        <div class="inline-block bg-blue-400 rounded-2xl text-white p-2.5 min-w-310">
-            <div class="text-1x1 border-b border-blue-300 text-blue-200 pb-2 mb-2 block text-left">10-DAY FORECAST</div>
-            <div class="text-2xl border-b border-blue-300 pb-2 mb-2 flex">
-                <div class="text-left min-w-82">Today</div> 
-                <span class="pr-5"><img width="30px" height="30px" src="sun-icon-256.png"></span> 
-                70° 
-                <div class="rounded-full mt-4 box-border bg-blue-500 w-24 h-1 mx-2">
-                    <div class="rounded-full overflow-x-hidden mr-2 w-10 h-1">
-                        <div class="rounded-full w-24 bg-gradient-to-r from-blue-300 via-yellow-300 to-red-500 h-1"></div>
+<body>
+    <div class="w-375 overflow-hidden">
+        <div data-swipe-threshold="100" id="o1" class="flex gallery">
+            <div class="background1">
+            <div class="w-375">
+                <div class="text-5xl text-white text-center">Capertino</div>
+                <div class="text-8xl text-white align-middle text-center font-light">70°</div>
+                <div class="text-2xl text-white text-center">Sunny</div>
+                <div class="text-2xl text-white text-center mb-7">H:76° L:51°</div>
+                <div class="text-center mb-3">
+                    <div class="inline-block bg-blue-400 rounded-2xl text-white p-2.5 max-w-310">
+                        <div class="border-b border-blue-300 text-blue-200 pb-3 mb-1 block text-left">Sunny conditions will continue all day.</div>
+                        <div class="flex overflow-y-hidden">
+                            <div class="pr-5 flex flex-col text-center">Now <img width="30px" height="30px" src="sun-icon-256.png"> <span class="text-2xl">70°</span></div>
+                            <div class="pr-5 flex flex-col text-center">10am <img width="30px" height="30px" src="sun-icon-256.png"> <span class="text-2xl">70°</span></div>
+                            <div class="pr-5 flex flex-col text-center">11am <img width="30px" height="30px" src="sun-icon-256.png">  <span class="text-2xl">70°</span></div>
+                            <div class="pr-5 flex flex-col text-center">12pm <img width="30px" height="30px" src="sun-icon-256.png">  <span class="text-2xl">70°</span></div>
+                            <div class="pr-5 flex flex-col text-center">1pm <img width="30px" height="30px" src="sun-icon-256.png">  <span class="text-2xl">70°</span></div>
+                            <div class="pr-5 flex flex-col text-center">2pm <img width="30px" height="30px" src="sun-icon-256.png">  <span class="text-2xl">70°</span></div>
+                            <div class="pr-5 flex flex-col text-center">3pm <img width="30px" height="30px" src="sun-icon-256.png">  <span class="text-2xl">70°</span></div>
+                        </div>
                     </div>
-                </div> 
-                80°
+                </div>
+                <div class="text-center">
+                    <div class="inline-block bg-blue-400 rounded-2xl text-white p-2.5 min-w-310">
+                        <div class="text-1x1 border-b border-blue-300 text-blue-200 pb-2 mb-2 block text-left">10-DAY FORECAST</div>
+                        <div class="text-2xl border-b border-blue-300 pb-2 mb-2 flex">
+                            <div class="text-left min-w-82">Today</div> 
+                            <span class="pr-5"><img width="30px" height="30px" src="sun-icon-256.png"></span> 
+                            70° 
+                            <div class="rounded-full mt-4 box-border bg-blue-500 w-24 h-1 mx-2">
+                                <div class="rounded-full overflow-x-hidden mr-2 w-10 h-1">
+                                    <div class="rounded-full w-24 bg-gradient-to-r from-blue-300 via-yellow-300 to-red-500 h-1"></div>
+                                </div>
+                            </div> 
+                            80°
+                        </div>
+                        <div class="text-2xl border-b border-blue-300 pb-2 mb-2 flex">
+                            <div class="text-left min-w-82">Tue</div> 
+                            <span class="pr-5"><img width="30px" height="30px" src="sun-icon-256.png"></span> 
+                            70° 
+                            <div class="rounded-full mt-4 box-border bg-blue-500 w-24 h-1 mx-2"></div> 
+                            80°
+                        </div>
+                        <div class="text-2xl border-b border-blue-300 pb-2 mb-2 flex">
+                            <div class="text-left min-w-82">Wed</div> 
+                            <span class="pr-5"><img width="30px" height="30px" src="sun-icon-256.png"></span> 
+                            70° 
+                            <div class="rounded-full mt-4 box-border bg-blue-500 w-24 h-1 mx-2"></div>
+                            80°
+                        </div>
+                        <div class="text-2xl border-b border-blue-300 pb-2 mb-2 flex">
+                            <div class="text-left min-w-82">Thu</div> 
+                            <span class="pr-5"><img width="30px" height="30px" src="sun-icon-256.png"></span> 
+                            70° 
+                            <div class="rounded-full mt-4 box-border bg-blue-500 w-24 h-1 mx-2"></div> 
+                            80°
+                        </div>
+                        <div class="text-2xl border-b border-blue-300 pb-2 mb-2 flex">
+                            <div class="text-left min-w-82">Fri</div> 
+                            <span class="pr-5"><img width="30px" height="30px" src="sun-icon-256.png"></span> 
+                            70° 
+                            <div class="rounded-full mt-4 box-border bg-blue-500 w-24 h-1 mx-2"></div> 
+                            80°
+                        </div>
+                        <div class="text-2xl border-b border-blue-300 pb-2 mb-2 flex">
+                            <div class="text-left min-w-82">Sat</div> 
+                            <span class="pr-5"><img width="30px" height="30px" src="sun-icon-256.png"></span> 
+                            70° 
+                            <div class="rounded-full mt-4 box-border bg-blue-500 w-24 h-1 mx-2"></div> 
+                            80°
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="text-2xl border-b border-blue-300 pb-2 mb-2 flex">
-                <div class="text-left min-w-82">Tue</div> 
-                <span class="pr-5"><img width="30px" height="30px" src="sun-icon-256.png"></span> 
-                70° 
-                <div class="rounded-full mt-4 box-border bg-blue-500 w-24 h-1 mx-2"></div> 
-                80°
             </div>
-            <div class="text-2xl border-b border-blue-300 pb-2 mb-2 flex">
-                <div class="text-left min-w-82">Wed</div> 
-                <span class="pr-5"><img width="30px" height="30px" src="sun-icon-256.png"></span> 
-                70° 
-                <div class="rounded-full mt-4 box-border bg-blue-500 w-24 h-1 mx-2"></div>
-                80°
+            <div class="background2">
+            <div class="w-375">
+                <div class="pt-4 text-white text-center text-4xl">Cupertino</div>
+                <div class="text-white text-center text-2xl">70° | Sunny</div>
+                <div class="text-center">
+                    <div class="mt-4 inline-block">
+                        <div class="flex">
+                            <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-9 mb-3">
+                                <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">UV INDEX</div>
+                            </div>
+                            <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-9 ml-4 mb-3">
+                                <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">SUNSET</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="inline-block">
+                        <div class="flex">
+                            <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 mb-3">
+                                <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">WIND</div>
+                            </div>
+                            <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 ml-4 mb-3">
+                                <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">RAINFALL</div>
+                                <div class="text-4xl ml-4 -mb-1 -mt-2">0"</div>
+                                <div class="text-xl ml-4">in last 24 hrs</div>
+                                <div class="text-sm pt-6 ml-4 mr-4">None expected in next 10 days</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="inline-block">
+                        <div class="flex">
+                            <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 mb-3">
+                                <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">FEELS LIKE</div>
+                                <div class="text-4xl ml-4 -mb-1 -mt-2">71°</div>
+                                <div class="text-sm pt-12 ml-4 mr-4">Similar to the actual temperature.</div>
+                            </div>
+                            <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 ml-4 mb-3">
+                                <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">HUMIDITY</div>
+                                <div class="text-4xl ml-4 -mb-1 -mt-2">45%</div>
+                                <div class="text-sm pt-12 ml-4 mr-4">The dew point is 47° right now.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="inline-block">
+                        <div class="flex"> 
+                            <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 mb-3">
+                                <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">VISIBILITY</div>
+                                <div class="text-4xl ml-4 -mb-1 -mt-2">10 mi</div>
+                                <div class="text-sm pt-16 ml-4 mr-4">It's perfectly clear.</div>
+                            </div>
+                            <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 ml-4 mb-3">
+                                <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">PRESSURE</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="text-2xl border-b border-blue-300 pb-2 mb-2 flex">
-                <div class="text-left min-w-82">Thu</div> 
-                <span class="pr-5"><img width="30px" height="30px" src="sun-icon-256.png"></span> 
-                70° 
-                <div class="rounded-full mt-4 box-border bg-blue-500 w-24 h-1 mx-2"></div> 
-                80°
-            </div>
-            <div class="text-2xl border-b border-blue-300 pb-2 mb-2 flex">
-                <div class="text-left min-w-82">Fri</div> 
-                <span class="pr-5"><img width="30px" height="30px" src="sun-icon-256.png"></span> 
-                70° 
-                <div class="rounded-full mt-4 box-border bg-blue-500 w-24 h-1 mx-2"></div> 
-                80°
-            </div>
-            <div class="text-2xl border-b border-blue-300 pb-2 mb-2 flex">
-                <div class="text-left min-w-82">Sat</div> 
-                <span class="pr-5"><img width="30px" height="30px" src="sun-icon-256.png"></span> 
-                70° 
-                <div class="rounded-full mt-4 box-border bg-blue-500 w-24 h-1 mx-2"></div> 
-                80°
             </div>
         </div>
     </div>
     <div class="sticky bottom-0">
         <div class="bg-blue-400 text-center h-12 pt-2">
             <div class="align-middle">
-                <span class="inline-block text-2xl leading-5">•</span>
-                <span class="inline-block"><a href="index1.html">•</a></span>
+                <span id="o2" class="inline-block text-2xl leading-5">•</span>
+                <span id="o3" class="inline-block">•</span>
             </div>
         </div>
     </div>
 </body>
+<script src="product_js.js"></script>
+<script src="swiped-events.min.js"></script>
 </html>
+<!--
+        <div class="sticky bottom-0">
+            <div class="bg-blue-400 text-center h-12 pt-2">
+                <div class="align-middle">
+                    <span class="inline-block text-2xl leading-5">•</span>
+                    <span class="inline-block"><a href="index1.html">•</a></span>
+                </div>
+            </div>
+        </div>
+        --->

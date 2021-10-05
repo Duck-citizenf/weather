@@ -1,5 +1,10 @@
-.background{
+.background1{
     background-image: url(new-weather-1.png);
+    height: 780px;
+}
+.background2{
+    background-image: url(new-weather-2.png);
+    height: 780px;
 }
 .max-w-310{
     max-width: 340px;
@@ -10,7 +15,22 @@
 .min-w-82{
     min-width: 82px;
 }
+.w-375{
+    width:375px;
+}
 .brick{
     height: 3px;
     width: 80px;
+}
+.gallery{
+    position:relative;
+    transform: translate(0px);
+    transition-duration: 200ms;
+    transition-property: all;
+}
+.gallery-2{
+    position:relative;
+    transform: translate(-375px);
+    transition-duration: 200ms;
+    transition-property: all;
 }
