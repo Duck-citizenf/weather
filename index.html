@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="w-375 overflow-hidden">
-        <div data-swipe-threshold="100" id="o1" class="flex gallery">
+        <div data-swipe-threshold="100" id="o1" class="flex gallery-2">
             <div class="background1">
             <div class="w-375">
                 <div class="text-5xl text-white text-center">Capertino</div>
@@ -84,67 +84,74 @@
             </div>
             </div>
             <div class="background2">
-            <div class="w-375">
-                <div class="pt-4 text-white text-center text-4xl">Cupertino</div>
-                <div class="text-white text-center text-2xl">70° | Sunny</div>
-                <div class="text-center">
-                    <div class="mt-4 inline-block">
-                        <div class="flex">
-                            <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-9 mb-3">
-                                <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">UV INDEX</div>
+                <div class="w-375">
+                    <div class="pt-4 text-white text-center text-4xl">Cupertino</div>
+                    <div class="text-white text-center text-2xl">70° | Sunny</div>
+                    <div class="text-center">
+                        <div class="mt-4 inline-block">
+                            <div class="flex">
+                                <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-9 mb-3">
+                                    <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">UV INDEX</div>
+                                </div>
+                                <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-9 ml-4 mb-3">
+                                    <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">SUNSET</div>
+                                </div>
                             </div>
-                            <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-9 ml-4 mb-3">
-                                <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">SUNSET</div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="inline-block">
+                            <div class="flex">
+                                <div class="text-white text-left bg-blue-400 rounded-2xl px-2 pt-1 w-40 h-40 mb-3">
+                                    <div class="align-middle leading-7 text-blue-200 pl-4 text-sm">WIND</div>
+                                    <div class="circular">
+                                        <div class="absolute text-1xl top-1/4 w-full text-center">
+                                            <div class="text-2xl">8</div>
+                                            <div class="-mt-1">mph</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 ml-4 mb-3">
+                                    <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">RAINFALL</div>
+                                    <div class="text-4xl ml-4 -mb-1 -mt-2">0"</div>
+                                    <div class="text-xl ml-4">in last 24 hrs</div>
+                                    <div class="text-sm pt-6 ml-4 mr-4">None expected in next 10 days</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="inline-block">
+                            <div class="flex">
+                                <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 mb-3">
+                                    <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">FEELS LIKE</div>
+                                    <div class="text-4xl ml-4 -mb-1 -mt-2">71°</div>
+                                    <div class="text-sm pt-12 ml-4 mr-4">Similar to the actual temperature.</div>
+                                </div>
+                                <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 ml-4 mb-3">
+                                    <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">HUMIDITY</div>
+                                    <div class="text-4xl ml-4 -mb-1 -mt-2">45%</div>
+                                    <div class="text-sm pt-12 ml-4 mr-4">The dew point is 47° right now.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="inline-block">
+                            <div class="flex"> 
+                                <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 mb-3">
+                                    <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">VISIBILITY</div>
+                                    <div class="text-4xl ml-4 -mb-1 -mt-2">10 mi</div>
+                                    <div class="text-sm pt-16 ml-4 mr-4">It's perfectly clear.</div>
+                                </div>
+                                <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 ml-4 mb-3 px-2 pt-1">
+                                    <div class="align-middle leading-7 text-blue-200 pl-4 pt-1 text-sm">PRESSURE</div>
+                                    <div class="circular pressure"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="text-center">
-                    <div class="inline-block">
-                        <div class="flex">
-                            <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 mb-3">
-                                <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">WIND</div>
-                            </div>
-                            <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 ml-4 mb-3">
-                                <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">RAINFALL</div>
-                                <div class="text-4xl ml-4 -mb-1 -mt-2">0"</div>
-                                <div class="text-xl ml-4">in last 24 hrs</div>
-                                <div class="text-sm pt-6 ml-4 mr-4">None expected in next 10 days</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <div class="inline-block">
-                        <div class="flex">
-                            <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 mb-3">
-                                <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">FEELS LIKE</div>
-                                <div class="text-4xl ml-4 -mb-1 -mt-2">71°</div>
-                                <div class="text-sm pt-12 ml-4 mr-4">Similar to the actual temperature.</div>
-                            </div>
-                            <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 ml-4 mb-3">
-                                <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">HUMIDITY</div>
-                                <div class="text-4xl ml-4 -mb-1 -mt-2">45%</div>
-                                <div class="text-sm pt-12 ml-4 mr-4">The dew point is 47° right now.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <div class="inline-block">
-                        <div class="flex"> 
-                            <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 mb-3">
-                                <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">VISIBILITY</div>
-                                <div class="text-4xl ml-4 -mb-1 -mt-2">10 mi</div>
-                                <div class="text-sm pt-16 ml-4 mr-4">It's perfectly clear.</div>
-                            </div>
-                            <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 ml-4 mb-3">
-                                <div class="align-middle leading-7 text-blue-200 ml-6 pt-1 text-sm">PRESSURE</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             </div>
         </div>
     </div>
