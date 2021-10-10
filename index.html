@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="w-375 overflow-hidden">
-        <div data-swipe-threshold="100" id="o1" class="flex gallery">
+        <div data-swipe-threshold="100" id="o1" class="flex gallery-2">
             <div class="background1">
             <div class="w-375">
                 <div class="text-5xl text-white text-center">Capertino</div>
@@ -151,7 +151,18 @@
                                 </div>
                                 <div class="text-white text-left bg-blue-400 rounded-2xl w-40 h-40 ml-4 mb-3 px-2 pt-1">
                                     <div class="align-middle leading-7 text-blue-200 pl-4 pt-1 text-sm">PRESSURE</div>
-                                    <div class="circular pressure"></div>
+                                    <div class="circular pressure">
+                                        <div class="absolute top-41 text-center">
+                                            <div>29.95</div>
+                                            <div>inHg</div>
+                                        </div>
+                                    </div>
+                                    <div class="relative">
+                                        <div class="z-10 absolute w-full bg-blue-400 highlow">
+                                            <a class="pl-6">Low</a>
+                                            <a class="pl-6">High</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -172,13 +183,3 @@
 <script src="product_js.js"></script>
 <script src="swiped-events.min.js"></script>
 </html>
-<!--
-        <div class="sticky bottom-0">
-            <div class="bg-blue-400 text-center h-12 pt-2">
-                <div class="align-middle">
-                    <span class="inline-block text-2xl leading-5">•</span>
-                    <span class="inline-block"><a href="index1.html">•</a></span>
-                </div>
-            </div>
-        </div>
-        --->
