@@ -61,9 +61,18 @@
     width: 110px;
     margin-left:1rem;
 }
+.top-40{
+    top: 6%;
+    left: 25%;
+}
 .top-41{
     top: 27%;
     left: 34%;
+}
+.top-43{
+    top: 57%;
+    left: -48%;
+    width: 111px;
 }
 .top-47{
     top:44%;
